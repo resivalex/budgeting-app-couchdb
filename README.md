@@ -1,5 +1,3 @@
-Here's an updated, friendly, and attractive version of the `README.md` file for the "Budgeting App Database Setup" project:
-
 # 📊 Budgeting App Database Setup
 
 Welcome to the database setup for the Budgeting App! Our app is designed to help you manage your finances by keeping track of your expenses and income. This guide will walk you through the process of setting up a CouchDB database using Docker, which our app relies on to store and manage data.
