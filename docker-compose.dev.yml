@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  budgeting_app_couchdb:
+    image: couchdb
+    container_name: budgeting_app_couchdb
+    env_file:
+      - .env
+    volumes:
+      - "./data:/opt/couchdb/data"
+    ports:
+      - "9002:5984"
